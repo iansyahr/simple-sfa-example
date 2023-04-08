@@ -1,2 +1,2 @@
-# simple-sfa-example
-just simple json format for sing-box for android (sfa)
+# simple sing-box example
+just simple json format for sing-box

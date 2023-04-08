@@ -42,14 +42,7 @@
       "auto_route": true,
       "strict_route": true,
       "stack": "system",
-      "sniff": true,
-      "platform": {
-        "http_proxy": {
-          "enabled": true,
-          "server": "0.0.0.0",
-          "server_port": 8080
-        }
-      }
+      "sniff": true
     },
     {
       "listen": "0.0.0.0",
@@ -111,19 +104,6 @@
         "port": [
           53
         ]
-      },
-      {
-        "network": "udp",
-        "port": [
-          443
-        ],
-        "outbound": "block"
-      },
-      {
-        "domain_suffix": [
-          "googlesyndication.com"
-        ],
-        "outbound": "Proxy"
       }
     ]
   }
